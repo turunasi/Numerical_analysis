@@ -60,7 +60,7 @@ Input b:2
 Number of trials:1.6180339887498967
 Limiting value:1.6180339887498967
 ```
-![diff graph]("1.png")
+![diff graph]("../1.png")
 
 # 2
 ## output
@@ -79,4 +79,4 @@ Input initial value:1
 Number of trials:9
 Limiting value:0.8241323123025224
 ```
-![diff graph]("2.png")
+![diff graph]("../2.png")
