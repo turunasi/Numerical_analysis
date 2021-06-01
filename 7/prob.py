@@ -3,12 +3,12 @@ import numpy as np
 def main():
     X = np.array([-2,2])
     k = 0
-    while k < 10:
+    while k < 5:
         A = get_A(X)
         b = get_b(X)
         dk = Jacobi(A,b)
         X = X+dk
-        print('X^{0}:{1}'.format(k,X))
+        print('X^{0}:{1}'.format(k+1,X))
         k += 1
 
 def get_A(X):
